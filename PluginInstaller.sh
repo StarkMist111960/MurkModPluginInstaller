@@ -1,7 +1,7 @@
 #/!bin/bash
 
 echo "Welcome, type the raw url of the desired plugin"
-URL=read -p "Enter URL: "
+URL=read "Enter URL: "
 
 sleep 8
 
