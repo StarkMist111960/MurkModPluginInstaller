@@ -1,9 +1,9 @@
-#/!bin/bash
+#!/bin/bash
 
-echo "Welcome, type the raw url of the desired plugin"
-URL=read -p "Enter URL: " url 
+echo "Welcome, type the raw URL of the desired plugin"
+read -p "Enter URL: " URL
 
 sleep 8
 
 cd /mnt/stateful_partition/murkmod/plugins
-curl -O $URL 
+curl -O $URL
